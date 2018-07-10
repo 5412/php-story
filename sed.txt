@@ -1,0 +1,5 @@
+grep -rn  '<script type="text/javascript">var _bdhmProtocol=(("https:"==document.location.protocol)?" https://":" http://");document.write(unescape("%3Cscript src=+_bdhmProtocol+hm.baidu.com/h.js%3F253e47a42e97590881afaab7f667f26f type=text/javascript%3E%3C/script%3E"));</script>' ./
+
+sed -i "" "s/<script type=\"text\/javascript\">var _bdhmProtocol=((\"https:\"==document.location.protocol)?\" https:\/\/\":\" http:\/\/\");document.write(unescape(\"%3Cscript src=+_bdhmProtocol+hm.baidu.com\/h.js%3F253e47a42e97590881afaab7f667f26f type=text/javascript%3E%3C/script%3E\"));</script>/sad/g"
+
+sed -i "" "s/<script type=\"text\/javascript\">var _bdhmProtocol=((\"https:\"==document.location.protocol)?\" https:\/\/\":\" http:\/\/\");document.write(unescape(\"%3Cscript src=+_bdhmProtocol+hm.baidu.com\/h.js%3F253e47a42e97590881afaab7f667f26f type=text/javascript%3E%3C/script%3E\"));</script>/sad/g"

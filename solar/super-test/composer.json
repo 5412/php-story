@@ -1,0 +1,22 @@
+{
+    "name": "piaoweixiong/super-test",
+    "authors": [
+        {
+            "name": "朴伟雄",
+            "email": "2355468258@qq.com"
+        }
+    ],
+    "repositories": {
+        "solar": {
+            "type": "path",
+            "url": "/Users/piaoweixiong/phptest/solar"
+        },
+        "super": {
+            "type": "path",
+            "url": "/Users/piaoweixiong/phptest/solar/super"
+        }
+    },
+    "require": {
+        "solar/super": "dev-master"
+    }
+}

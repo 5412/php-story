@@ -1,0 +1,23 @@
+{
+    "name": "solar/super",
+    "description": "A rbac manager for laravel 5.6+",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "朴伟雄",
+            "email": "2355468258@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Solar\\Super\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Solar\\Super\\Tests\\": "tests/"
+        }
+    },
+    "require": {}
+}

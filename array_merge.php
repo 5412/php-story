@@ -12,3 +12,6 @@ $t2 = time();
 $mem2 = memory_get_usage();
 
 echo "merge函数1次循环执行时间为", ($t2-$t1), "所用内存为：" . ($mem2 - $mem1) . PHP_EOL;
+
+$arr = [1=>"1", 2=>"2"];
+var_dump($arr, [1=>"3"]);

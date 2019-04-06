@@ -29,22 +29,9 @@
 // }
 
 // echo intval("0e830400451993494058024219903391")
-$arr2 = [];
-$arr = [1,2,3,4,5,6];
-foreach($arr as  $key =>&$value) {
-    $arr2[] = $value;
-}
-
-foreach($arr as  $key =>$value) {
-    $arr2[] = $value;
-    var_dump($arr);
-}
-
-foreach($arr as  $key =>$value) {
-    $arr2[] = $value;
-    var_dump($arr);
-}
-
-var_dump($arr);
-var_dump($arr2);
-?>
+$arr2 = [1,2,3, "a" => "b"];
+$arr = $arr2;
+$arr[0] = 0;
+$str = json_encode($arr2);
+echo $str, PHP_EOL;
+var_dump(json_decode($str));

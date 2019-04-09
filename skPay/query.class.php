@@ -24,6 +24,7 @@ class Query {
         $post['key'] = $key;
         return $this->curl_post($post);
     }
+
     function curl_post($order) {
         $ch = curl_init($this->url);
         curl_setopt($ch, CURLOPT_HEADER, 0);//设置header

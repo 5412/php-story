@@ -7,6 +7,3 @@ exec($command, $retval, $status);
 if ($status == 0) {
     echo '执行成功！';
 }
-
-
-pbpaste

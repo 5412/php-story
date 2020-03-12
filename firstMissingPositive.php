@@ -3,7 +3,7 @@
 function firstMissingPositive(array $input) :int {
     $l  = count($input);
     $i = 0;
-    var_export($input);
+    //var_export($input);
     while($i < $l) {
         if ($input[$i] > 0 && $input[$i] <= $l && $input[$input[$i] - 1] != $input[$i]) {
             $temp = $input[$input[$i] - 1];
@@ -12,9 +12,9 @@ function firstMissingPositive(array $input) :int {
         } else {
             $i++;
         }
-        var_export($input);
+        //var_export($input);
     }
-    var_export($input);
+    //var_export($input);
     $i = 0;
     while ($i < $l && $input[$i] == $i + 1) {
         $i++;
